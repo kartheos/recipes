@@ -1,0 +1,98 @@
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+
+    color: white;
+
+}
+
+.background-image {
+    
+    background-image: url('./images/wallpapers/oreowallpaper.jpg');
+   
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    height: 1800px;
+    
+}
+
+.overlay {
+
+    background-color: rgba(17, 11, 9, 0.7);
+    
+
+}
+
+.block {
+
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+h1 {
+
+    background-color: white;
+    font-size: 50px;
+    color: #110B09;
+}
+
+/*Images position*/
+
+
+.oreo  {
+
+    height: 380px;
+    width:auto;
+
+    margin-top: 30px;
+}
+
+.Section1,
+.Section2,
+.Section3,
+.Section4,
+.Section5 {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.tutorial {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+   
+}
+
+.homepage{
+
+    text-decoration: none;
+}
+
+
+
+.back{
+
+    font-size: 25px;
+    background-color: white;
+    color: #110B09;
+
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
+

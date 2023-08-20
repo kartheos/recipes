@@ -1,11 +1,41 @@
 * {
-    background-color: #b47950 ;
 
+    margin: 0;
+    padding: 0;
+}
+
+body {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 
 
     color: white;
+
+}
+
+.background-image {
+    
+    background-image: url('./images/wallpapers/browniewallpaper.jpg');
+   
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    height: 1980px;
+    
+}
+
+.overlay {
+
+    background-color: rgba(128, 85, 54, 0.9);
+    
+
+}
+
+.block {
+
+    margin-left: 500px;
+    margin-right: 500px;
 }
 
 h1 {
@@ -15,27 +45,52 @@ h1 {
     color: #b47950;
 }
 
-.back{
-    font-size: 25px;
-}
-
 /*Images position*/
 
- .chip1  {
-
-    height: 380px;
-    width:auto;
-}
-
-.oreo  {
-
-    height: 520px;
-    width:auto;
-}
 
 .brw  {
 
     height: 520px;
     width:auto;
+
+    margin-top: 30px;
 }
+
+.Section1,
+.Section2,
+.Section3,
+.Section4,
+.Section5,
+.Section6 {
+
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tutorial {
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+}
+
+
+.homepage{
+
+    text-decoration: none;
+}
+
+.back{
+
+    font-size: 25px;
+    background-color: white;
+    color: #b47950;
+
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+
+
 

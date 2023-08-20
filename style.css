@@ -1,26 +1,135 @@
-* {
-    background-color: #b47950 ;
+* {   
+    margin: 0;
+    padding: 0;
+
+
+}
+
+/* body {
+     background-color: #b47950;
+} */
+
+@font-face {
+    font-family: myFont;
+    src: url(cookiefont.ttf);
+}
+
+
+body {
 
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
-
-    list-style-type: none;
-
     color: white;
 }
 
+.background-image {
+    
+    background-image: url('./HomePageCookies/backg.jpg');
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    height: 1100px;
+
+    
+}
+
+header, footer {
+
+    position: fixed;
+    background-color: #b47950;
+    color: white;
+    width: 100%;
+}
+
+header {
+    height: 6vh;
+    color: white;
+}
+
+footer {
+    height: 5vh;
+    bottom: 0;
+}
+
+footer h2 {
+
+    position: fixed;
+    left: 42%;
+    margin-top: 16px;
+    font-size: 15px;
+}
+
+header h1 {
+    position: fixed;
+    margin-top: 13px;
+    left: 10%;
+
+}
+
+.nav {
+
+    position: fixed;
+    width: 100%;
+}
+
+.nav a {
+
+    position: relative;
+    left: 45%;
+    top: 20px;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+   
+}
+
+#cgif {
+
+    padding-top: 100px;
+    margin-top: 50px;
+    margin-bottom: 300px;
+}
+
 h1 {
-
-    background-color: white;
+   
     font-size: 50px;
-    color: #b47950;
+    margin-bottom: 30px;
+  
+    font-family: myFont;
 }
 
-li a {
+.welcome {
+    background-color: #b47950;
+    padding: 10px;
+}
 
-    font-size: 30px;
-    color: #b47950;
-    background-color: white;
+
+
+.welcome h2 {
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+img#cgif {
+
+    margin-top: 30px;
+    margin-bottom: 50px;
 
 }
+
+img#browniesp,
+img#chocop,
+img#oreop {
+
+    width: 350px;
+    height: auto;
+    float: left;
+
+    margin-left: 210px;
+    padding-bottom: 40px;
+  
+
+}
+
 
